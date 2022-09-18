@@ -6,4 +6,8 @@
     <bean id="classRoom" class="com.example.demo.ClassRoom">
         <constructor-arg index="0" value="C1"></constructor-arg>
     </bean>
+
+    <bean id="student" class="com.example.demo.Student">
+        <constructor-arg value="classRoom"></constructor-arg>
+    </bean>
 </beans>
